@@ -7,6 +7,7 @@
 # Boot animation
 TARGET_SCREEN_WIDTH := 800
 TARGET_SCREEN_HEIGHT := 1280
+TARGET_BOOT_ANIMATION_RES := 800
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
@@ -20,7 +21,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-arrow
 
 # Product characteristics
 PRODUCT_CHARACTERISTICS := default
